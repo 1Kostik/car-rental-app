@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/car_rental_app">
+      <BrowserRouter basename="/car-rental-app">
         <PersistGate loading={null} persistor={persistor}>
           <App />
         </PersistGate>
