@@ -1,7 +1,7 @@
 {
   "name": "car_rental_app",
   "version": "0.1.0",
-  "homepage": "https://1kostik.github.io/car_rental_app/",
+  "homepage": "https://1kostik.github.io/car-rental-app/",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
