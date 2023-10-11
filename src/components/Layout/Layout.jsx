@@ -1,11 +1,11 @@
 import { Outlet } from "react-router-dom";
-import { Container, Header, Logo, Link } from "./Layout.styled";
+import { Container, Header, Logo, Link,Span } from "./Layout.styled";
 
  const Layout = () => {
   return (
     <Container>
       <Header>
-        <Logo>Car Rental</Logo>
+        <Logo><Span>Car</Span> Rental</Logo>
         <nav>
           <Link to="/" end>
             Home
