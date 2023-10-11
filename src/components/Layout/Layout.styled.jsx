@@ -15,7 +15,13 @@ export const Header = styled.header`
     display: flex;
   }
 `;
-
+export const LinkLogo = styled(NavLink)`
+  margin: 0;
+  text-decoration: none;
+  &:hover {
+    color: #3470ff;
+  }
+`;
 export const Logo = styled.p`
   font-size: 24px;
   font-weight: 700;
@@ -23,7 +29,7 @@ export const Logo = styled.p`
 `;
 export const Span = styled.span`
   font-size: 24px;
-  color: #3470FF;
+  color: #3470ff;
   font-weight: 700;
   margin: 0;
 `;
