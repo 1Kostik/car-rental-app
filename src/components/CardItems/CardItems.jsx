@@ -42,7 +42,7 @@ export const CardItems = ({
   };
   return (
     <>
-      <CardAdvertising key={id}>
+      <CardAdvertising >
         {favorites.includes(id) ? (
           <FavoriteActiveIcon
             width="18"

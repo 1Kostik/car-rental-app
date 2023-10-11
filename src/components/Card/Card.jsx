@@ -24,6 +24,7 @@ export const Card = ({ data }) => {
               fuelConsumption,
             }) => (
               <CardItems
+              key={id}
                 id={id}
                 img={img}
                 year={year}
